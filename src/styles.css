@@ -1,1 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url(https://images6.alphacoders.com/650/thumb-1920-650576.png);
+    background-position: fixed;
+    background-repeat: none;
+}

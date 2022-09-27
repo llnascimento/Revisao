@@ -1,0 +1,90 @@
+.Home{
+
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    margin: auto;
+    margin-top: 2%;
+}
+.texthome{
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+}
+
+.album1{
+    display:inline-flex ;
+    margin-left: 1em;
+}
+.album2{
+    display: inline-flex;
+    margin-left: 0.5em;
+}
+.album3{
+    display: inline-flex;
+    margin-left: 0.5em;
+}
+
+.home1{
+    width: 31%;
+    height: 12%;
+    margin-top: 2%;
+    margin-left: 2em;
+    border: 0.5em solid white;
+    padding: 20px 20px 20px 20px;
+   display: inline-table;
+   color: white;
+   margin-bottom:50px ;
+}
+
+.textnirva{
+    text-align: justify;
+    font-size: 1.25em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home2{
+    width: 31%;
+    height: 12%;
+    margin-top: 2%;
+    margin-left: 2em;
+    border: 0.5em solid white;
+    padding: 20px 20px 20px 20px;
+    display: inline-table;
+    margin-left: 1em;
+    color: white;
+}
+
+.home3{
+    width: 31%;
+    height: 12%;
+    margin-top: 2%;
+    margin-left: 2em;
+    border: 0.5em solid white;
+    padding: 20px 20px 20px 20px;
+ display: inline-table;
+    margin-left: 1em;
+    color: white;
+}
+
+button{
+    font-family: fantasy;
+}
+
+.bot{
+    margin: auto;
+    text-align: center;
+}
+
+.bot1{
+    margin: auto;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.bot2{
+    margin: auto;
+    text-align: center;
+    margin-top: 6px;
+}
