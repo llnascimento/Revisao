@@ -1,0 +1,23 @@
+.tetxt{
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+}
+.nirvanatext01{
+    margin:auto;
+    margin-top: 2%;
+}
+
+.camisa1{
+    margin-left: 9%;
+    margin-top: 2%;
+    display: inline-table;
+    box-shadow: 6px 6px 6px #888;
+}
+.cardtext{
+    text-align: justify;
+}
+.center{
+    text-align: right;
+    margin-top: 5px;
+}
