@@ -9,6 +9,8 @@ import { HomeComponent } from './components/home/home.component';
 import { NirvanaComponent } from './components/musica/nirvana/nirvana.component';
 import { LedZeppComponent } from './components/musica/led-zepp/led-zepp.component';
 import { PinkFloydComponent } from './components/musica/pink-floyd/pink-floyd.component';
+import { CadastrarComponent } from './components/musica/cadastrar/cadastrar.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,13 @@ import { PinkFloydComponent } from './components/musica/pink-floyd/pink-floyd.co
     HomeComponent,
     NirvanaComponent,
     LedZeppComponent,
-    PinkFloydComponent
+    PinkFloydComponent,
+    CadastrarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

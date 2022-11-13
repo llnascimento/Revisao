@@ -1,0 +1,22 @@
+.tetxt{
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+    margin-top: 25px;
+}
+
+form{
+    padding-top:25px ;
+    padding-bottom:25px ;
+    padding-left: 50px ;
+    padding-right:50px ;
+}
+.card{
+    width: 750px;
+    margin: auto;
+    border: 3px solid white;
+    background-color: rgba(255, 255, 255, 0.103);
+    color:white;
+    margin-top: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,88 @@
+<div class="nirvanatext01">
+    <h1 class="tetxt">Cadastrar Produto</h1>
+</div>
+
+
+<!-- Começo do forms-->
+<div class="container">
+<div class="card shadow">
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="nome">Nome do Produto</label>
+      <input type="text" class="form-control" name="nomeProduto" [(ngModel)]="nome">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="fabricante">Fabricante</label>
+      <input type="text" class="form-control" name="fabri" [(ngModel)]="fabricante">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="descri">Descrição do Produto</label>
+    <input type="text" class="form-control" placeholder="O produto é uma ótima escolha para pessoas ...." name="descrição" [(ngModel)]="descri">
+  </div>
+  <div class="form-group">
+    <label for="comple">Complemento</label>
+    <input type="text" class="form-control" placeholder="..." name="complemento" [(ngModel)]="comple">
+  </div>
+  <div class="form-row">
+      <div class="form-group col-md-6">
+      <label for="material">Material</label>
+      <select class="form-control">
+        <option selected>Escolha o Material</option>
+        <option>Algodão</option>
+        <option>Lã </option>
+        <option>Malha</option>
+        <option>Viscose</option>
+        <option>Seda</option>
+        <option>Linho</option>
+        <option>Veludo</option>
+        <option>Lurex</option>
+      </select>
+    </div>
+    <div class="form-group col-md-4">
+      <label for="tamanho">Tamanho</label>
+      <select class="form-control">
+        <option selected>Escolha o tamanho</option>
+        <option>P</option>
+        <option>M</option>
+        <option>G</option>
+        <option>GG</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="valorProduto">Valor</label>
+      <input type="number" class="form-control" placeholder="0.00" name="preço" [(ngModel)]="valorProduto">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" >
+      <label class="form-check-label" for="gridCheck">
+        Confirma ?
+      </label>
+    </div>
+  </div>
+  <button class="btn btn-outline-danger" routerLink="/">Voltar</button>
+  <button class="btn btn-outline-success float-right" (click)="salvarProduto()">Salvar</button>
+</form>
+</div>
+</div>
+
+<!--
+    <div class="card mt-3">
+    <p>Nome: {{nome}} </p>
+    <p>fabricante: {{fabricante}} </p>
+    <p>Descrição: {{descri}} </p>
+    <p>Complemnto: {{comple}} </p>
+    <p>Preço: {{valorProduto}} </p>
+</div>
+-->
+
+<br><br><br><br>
+
+<div class="nav navbar-light   bg-light justify-content-center">
+    <span class="navbar-text">
+        Club of Rock <strong>@Copyright</strong>
+    </span>
+</div> 
